@@ -1,0 +1,44 @@
+main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+}
+nav{
+    background-color: #000000
+}
+.container {
+    border: 1px solid black;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+}
+.container div{
+    border: 1px solid black;
+    width: 46.3%;
+    text-align: left;
+    padding: 5px;
+    margin: 5px
+}
+hr{
+    background-color: #000000;
+    border: 1px solid black
+}
+
+div h2{
+    text-align: center;
+}
+.forca{
+    background-color: powderblue;
+}
+.oportunidade{
+    background-color: rgba(238, 179, 198, 0.822);
+}
+.fraquezas{
+    background-color: rgb(241, 243, 150);
+}
+.Aameacas{
+    background-color: plum;
+}

@@ -1,0 +1,57 @@
+/*TOPO*/
+body{
+    width: 100%;
+}
+#topo{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+}
+header nav a img{
+    padding-top: 5px;
+    width: 30px;
+    margin-left: 15px;
+}
+header nav img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+header a{
+    text-decoration: none;
+    color: #ffb200;
+    border-radius: 5px;
+    padding: 7px 10px ;
+    margin-left: 10px;
+    height: 100%;
+}
+header a:hover  .icone-topo{
+    width: 40px;
+}
+
+/*Conteudo*/
+main{
+    background: #333333;
+    width: 100%;
+}
+
+/*Rodapé*/
+footer{
+    width: 100%;
+    color: #ffb200;
+    background: #000;
+    padding: 5px 15px ;
+    box-sizing: border-box;
+}
+footer img, footer p{
+    padding-bottom: 10px;
+}
+footer a img{
+    padding-top: 5px;
+    width: 30px;
+    margin-left: 15px;
+}

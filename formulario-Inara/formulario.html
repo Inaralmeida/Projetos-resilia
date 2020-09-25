@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Alura/HTML - CSS/Aula 2/reset.css">
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Resilia - Inscreva-se</title>
+</head>
+<body>
+    <main>
+        
+        <img width="100px" src="pp.jfif"" alt=""> <!--Logo-->
+        <div class="paragrafo"> <!--Texto-->
+            <p>Seja bem vindo ao nosso processo seletivo, em breve entraremos em contato. Que a sorte esteja sempre ao seu favor!</p>
+        </div>
+        <form action="">
+            <div><!--Nome-->
+                <P><label for="Nome">Nome</label></P> 
+                <input type="text" name="Nome" class="cnome" id="Nome" size="50" maxlength="30" placeholder="Nome Completo">
+            </div>
+            <div ><!--E-mail-->
+                <p> <label for="E-mail">E-mail</label> </p> 
+                    <input type="email" name="e-mail"  id="E-mail" class="cemail" size="50" maxlength="30" placeholder="Seu melhor E-mail">
+            </div>
+            <div> <!--CPF-->
+                <p><label for="CPF">CPF</label></p>
+                <input type="cpf-mask" name="cpf" id="CPF" size="50" class="ccpf" placeholder="Ex: 000.000.000-00">
+            </div>
+            <div><!--Data-->
+                <p class="data" ><label for="Data de nadcimento">Data de Nascimento</label>
+                <input  class="data" type="date" name="data de nascimento" id="Data" size="50" >
+                </p>
+            </div>        
+            <div ><!--Botão-->
+                <input type="button" value="Cadastrar" class="botao">
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
