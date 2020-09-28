@@ -5,6 +5,7 @@ main{
 }
 h1{
     font-size: 2em;
+    margin: 15px;
 }
 nav{
     background-color: #000000

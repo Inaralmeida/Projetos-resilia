@@ -1,0 +1,107 @@
+#container .topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rodape-filmes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+@media(max-width: 820px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        width:100%;
+        margin: 0 auto;
+    }
+    /*TOPO*/
+    #container .topo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        align-items: center;
+    }
+    .topo .logo{
+        width:80%;
+        margin: 25px auto;
+    }
+
+    /*CONTEUDO*/
+    
+    /*RODAPÉ*/
+    .rodape{
+        flex-direction: column;
+        height: auto;
+        padding: 25px 0;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .rodape img, .rodape p, .rodape .icones-rodape{
+            margin-bottom: 15px;
+            width: 40%;
+            text-align: center;
+
+        }
+        .rodape .icones-rodape{
+            order: -1;
+        }
+        .rodape .icones-rodape img{
+            width: 40px;
+            margin: 0;
+            padding-right: 7px;
+
+        }
+        .rodape p{
+            font-size: 25px;
+        }
+
+}
+@media(max-width: 768px){
+    .rodape-filmes{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px;
+        
+       
+    }
+    .films-rodape{
+        width: 48%;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+    .rodape-filmes h3{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+   
+
+}

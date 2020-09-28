@@ -1,0 +1,34 @@
+#container .topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box-filmes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.rodape-filmes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
