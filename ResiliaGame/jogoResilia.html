@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resila Game</title>
+    <style>
+        header{
+            border: 1px solid black;
+            width: 600px;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        #pontos{
+            border: 1px solid black;
+            width: 150px;
+            text-align: start;
+            font-size: 20px;
+            padding: 3px;
+            height: 30px;
+            box-sizing: border-box;
+        }
+        header #proximo{
+            width: 120px;
+            height: 40px;
+            font-size: 20px;
+            text-transform: uppercase;
+            
+        }
+        #mensagem h2{
+            font-weight: bold;
+        }
+        #mensagem p{
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RESILIA GAME</h1>
+        <p id="pontos">Pontos:<p id="pontuacao" ></p> </p>
+        
+        <div id='mensagem'>
+            <h2><strong>OBJETIVO</strong></h2>
+            <p>Esse jogo tem como objetivo final formar como Desenvolvedor Full Stack através do curso RESILIA. <br>Testaremos o seu comprometimento e resiliencia.<br>
+                <strong>OBS: VOCÊ SÓ PODE REPROVAR UMA VEZ</strong> <br>Que a sorte esteja sempre ao seu favor</p>
+            </div>
+            
+            <div id="teste">
+                <button id="proximo" onclick="texto()">Proximo</button> 
+            </div>
+        </header>
+        <script> 
+        var pontos = 100
+        var perguntas = 0
+        var media = pontos / perguntas
+        
+
+            function texto() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('MÓDULO 1')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'você ganhou 100 pontos')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta1()">Proximo</button> `
+            }
+
+            function pergunta1() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('Você trabalhou o dia inteiro e está extremamente cansadx')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Participar da aula?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao1()">Enviar</button> `
+            }
+
+            function pontuacao1(){
+                var escolha = document.getElementsByName('escolha')
+                var resultado = document.querySelector('div#teste')
+
+                if(escolha[0].checked){
+                    pontos += 100
+                    perguntas++
+                    resultado.innerHTML = `<button id="proximo" onclick="pergunta2_1()">Proximo</button> `                
+                }else if(escolha[1].checked){
+                    pontos -= 100
+                    perguntas++
+                    resultado.innerHTML = `<button id="proximo" onclick="pergunta2_2()">Proximo</button> `
+                }
+                
+                console.log(pontos)
+                }
+
+            function pergunta2_1() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('O seu grupo do dia são de pessoas com as quais você não tem muita afinidade')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Participar das atividades propostas?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao3()">Enviar</button> `
+            }
+            
+            function pergunta2_2() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('Bom, você não participou da aula')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Pegar o conteudo passado em aula com os colegas?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao2()">Enviar</button> `
+            }
+            
+            function pontuacao2(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta3()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta4()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+
+            function pergunta3() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('A aula acabou mais tarde que o habitual.')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Estudar após aula?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao3()">Enviar</button> `
+            }
+            
+            function pontuacao3(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta4()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta4()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+
+            function pergunta4() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('Você já recebeu os exercios de casa.')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Resolver todos os esxercicios do pfd de aula?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao4()">Enviar</button> `
+              
+
+            }
+
+            function pontuacao4(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta5()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta5()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+            
+            function pergunta5() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('A vantagem do resilia são as monitorias semanai para ajudar os alunos.')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Perticipar da monitorias?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao5()">Enviar</button> `
+                
+                                                       
+            }
+
+            function pontuacao5(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta6()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta6()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+           
+            function pergunta6() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('Coletividade é um dos pilares do resilia.')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Ajudar os colegas?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao6()">Enviar</button> `
+                
+                                                       
+            }
+            function pontuacao6(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 100
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta7()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 100
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="pergunta7()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+           
+            function pergunta7() {
+                const mensagem = document.querySelector('#mensagem h2').textContent = ('Chegamos ao final do módulo e está na hora de testar os seus conhecimentos')
+                const texto = document.querySelector('#mensagem p').textContent = ( 'Responder Qualified?')
+                var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao7()">Enviar</button> `
+                
+                                                       
+            }
+
+            function pontuacao7(){
+               var escolha = document.getElementsByName('escolha')
+               var resultado = document.querySelector('div#teste')
+
+               if(escolha[0].checked){
+                pontos += 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="resultadoFinal()">Proximo</button> `                   
+               }else if(escolha[1].checked){
+                pontos -= 50
+                perguntas++
+                resultado.innerHTML = `<button id="proximo" onclick="resultadoFinal()">Proximo</button> `
+               }
+               
+               console.log(pontos)
+            }
+           
+            function resultadoFinal() {
+              
+                const mensagem = document.querySelector('#mensagem h2').textContent = (`APROVADO`)
+                const texto = document.querySelector('#mensagem p').textContent = (`Você conseguiu ${pontos}pontos`)
+                /* var resultado = document.querySelector('div#teste')
+                resultado.innerHTML = `<input type="radio" name="escolha" id="sim">Sim
+                                                        <input type="radio" name="escolha" id="não">não <br>
+                                                        <button id="proximo" onclick="pontuacao7()">Enviar</button> ` */
+                                                       
+            }
+
+
+        </script>
+    </body>
+    </html>
