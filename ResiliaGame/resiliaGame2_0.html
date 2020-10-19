@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "https://fonts.googleapis.com/css2? family = Source + Code + Pro: wght @ 200; 900 & display = swap" rel = "stylesheet">
+    <link rel="stylesheet" href="../../../reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JOGO DA VIDA DE POBRE</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <ul id="icones-necessidades-topo">
+                <li class="icones-necessidades">
+                    <img src="img/icones/111123-supraicons/png/energia.png" alt="">
+                    <p id="energia"></p>
+                </li> 
+                <li class="icones-necessidades">
+                    <img src="img/icones/111123-supraicons/png/estudos.png" alt="">
+                    <p id="estudos"></p>
+                </li>
+                <li class="icones-necessidades">
+                    <img src="img/icones/111123-supraicons/png/trabalho.png" alt="">
+                    <p id="trabalho"></p>
+                </li>
+                <li class="icones-necessidades">
+                    <img src="img/icones/111123-supraicons/svg/dinheiro.svg" alt="">
+                    <p id="dinheiro"></p>
+                </li> 
+            </ul>
+            
+            <ul id="dados">
+                <li class="dados-topo">Nome:   <p id="nomeUser">  </p></li>
+                <li class="dados-topo">Dia:   <p id="data">1</p></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <div id="inicio">
+            <h2 id='titulo'> JOGO DA VIDA DE POBRE</h2>
+            <p id="texto"></p>
+            <div id="esco">
+            </div>
+            
+            <div class="imagens"></div>
+                    
+           
+            
+            <div class = 'botao'>
+                <button id="botaoInicio"  onclick="apresentarJogo()">START</button>
+            </div>
+            <div id="bota"></div>
+        </div>
+        <div id="apresentaJogo">    </div>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>    
+</body>
+</html>

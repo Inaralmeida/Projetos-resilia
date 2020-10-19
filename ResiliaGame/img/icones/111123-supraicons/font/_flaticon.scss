@@ -1,0 +1,527 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:07
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-a-minus-test-symbol:before { content: "\f100"; }
+.flaticon-a-plus-symbol:before { content: "\f101"; }
+.flaticon-add-favorite-star-interface-symbol:before { content: "\f102"; }
+.flaticon-add-song-interface-symbol:before { content: "\f103"; }
+.flaticon-add-to-cart-commercial-symbol:before { content: "\f104"; }
+.flaticon-add-to-shopping-cart-e-commerce-symbol:before { content: "\f105"; }
+.flaticon-adding-to-shopping-cart:before { content: "\f106"; }
+.flaticon-apple-black-fruit-shape:before { content: "\f107"; }
+.flaticon-apple-black-shape:before { content: "\f108"; }
+.flaticon-arroba-symbol:before { content: "\f109"; }
+.flaticon-balloon-black-oval-shape:before { content: "\f10a"; }
+.flaticon-baseball-ball:before { content: "\f10b"; }
+.flaticon-baseball-circular-ball:before { content: "\f10c"; }
+.flaticon-basket:before { content: "\f10d"; }
+.flaticon-battery-black-silhouette-shape:before { content: "\f10e"; }
+.flaticon-battery-level-interface-symbol:before { content: "\f10f"; }
+.flaticon-battery-with-three-empty-areas:before { content: "\f110"; }
+.flaticon-birthday-cake-with-one-burning-candle-on-top:before { content: "\f111"; }
+.flaticon-black-flag:before { content: "\f112"; }
+.flaticon-black-male-t-shirt:before { content: "\f113"; }
+.flaticon-book-opened-pages:before { content: "\f114"; }
+.flaticon-bookmark-on-an-opened-book:before { content: "\f115"; }
+.flaticon-briefcase:before { content: "\f116"; }
+.flaticon-briefcase-1:before { content: "\f117"; }
+.flaticon-briefcase-business-tool:before { content: "\f118"; }
+.flaticon-bus-front:before { content: "\f119"; }
+.flaticon-butterfly-top-view:before { content: "\f11a"; }
+.flaticon-car-front:before { content: "\f11b"; }
+.flaticon-castle-with-a-flag-on-top:before { content: "\f11c"; }
+.flaticon-cellphone:before { content: "\f11d"; }
+.flaticon-cellphone-1:before { content: "\f11e"; }
+.flaticon-cellphone-2:before { content: "\f11f"; }
+.flaticon-cellphone-3:before { content: "\f120"; }
+.flaticon-chat-comment:before { content: "\f121"; }
+.flaticon-checkmark:before { content: "\f122"; }
+.flaticon-circular-wall-clock:before { content: "\f123"; }
+.flaticon-clock-circular-tool:before { content: "\f124"; }
+.flaticon-clock-of-wall:before { content: "\f125"; }
+.flaticon-clock-time-tool:before { content: "\f126"; }
+.flaticon-closed-trash-can-tool:before { content: "\f127"; }
+.flaticon-clouds:before { content: "\f128"; }
+.flaticon-coffee-hot-cup:before { content: "\f129"; }
+.flaticon-coffee-or-tea-mug:before { content: "\f12a"; }
+.flaticon-comment:before { content: "\f12b"; }
+.flaticon-comment-bubble-with-three-dots-inside:before { content: "\f12c"; }
+.flaticon-comment-speech-bubble-of-chat:before { content: "\f12d"; }
+.flaticon-comments-bubbles:before { content: "\f12e"; }
+.flaticon-commercial-basket-with-down-arrow-symbol:before { content: "\f12f"; }
+.flaticon-compass-circular-tool:before { content: "\f130"; }
+.flaticon-couch:before { content: "\f131"; }
+.flaticon-cpu:before { content: "\f132"; }
+.flaticon-credit-card-back:before { content: "\f133"; }
+.flaticon-credit-or-debit-card-back:before { content: "\f134"; }
+.flaticon-delete-shopping-cart-symbol:before { content: "\f135"; }
+.flaticon-delete-song-interface-symbol:before { content: "\f136"; }
+.flaticon-desk-microphone:before { content: "\f137"; }
+.flaticon-disc:before { content: "\f138"; }
+.flaticon-disc-1:before { content: "\f139"; }
+.flaticon-disk:before { content: "\f13a"; }
+.flaticon-download:before { content: "\f13b"; }
+.flaticon-download-interface-symbol-of-down-arrow-on-a-tray:before { content: "\f13c"; }
+.flaticon-drawing-tablet-design-tool:before { content: "\f13d"; }
+.flaticon-dress:before { content: "\f13e"; }
+.flaticon-dress-1:before { content: "\f13f"; }
+.flaticon-drink-cocktail-glass-side-view:before { content: "\f140"; }
+.flaticon-e-commerce-shopping-cart-tool:before { content: "\f141"; }
+.flaticon-earth-globe:before { content: "\f142"; }
+.flaticon-education-school-book:before { content: "\f143"; }
+.flaticon-eiffel-tower:before { content: "\f144"; }
+.flaticon-equalizer:before { content: "\f145"; }
+.flaticon-equalizer-bars-symbol:before { content: "\f146"; }
+.flaticon-fashion-black-dress:before { content: "\f147"; }
+.flaticon-feminine-purse:before { content: "\f148"; }
+.flaticon-film-strip:before { content: "\f149"; }
+.flaticon-flower:before { content: "\f14a"; }
+.flaticon-flower-beautiful-shape-of-five-petals:before { content: "\f14b"; }
+.flaticon-flower-shape-photo-camera-interface-symbol:before { content: "\f14c"; }
+.flaticon-fork-and-knife-eating-utensils:before { content: "\f14d"; }
+.flaticon-fork-and-spoon:before { content: "\f14e"; }
+.flaticon-full-battery-interface-symbol:before { content: "\f14f"; }
+.flaticon-gift-box-surrounded-by-a-ribbon:before { content: "\f150"; }
+.flaticon-gift-box-with-a-ribbon-on-top:before { content: "\f151"; }
+.flaticon-gift-box-with-big-ribbon-bow:before { content: "\f152"; }
+.flaticon-giftbox:before { content: "\f153"; }
+.flaticon-giftbox-1:before { content: "\f154"; }
+.flaticon-half-battery-level-interface-symbol:before { content: "\f155"; }
+.flaticon-headphones:before { content: "\f156"; }
+.flaticon-headphones-of-straight-shape:before { content: "\f157"; }
+.flaticon-headphones-tool:before { content: "\f158"; }
+.flaticon-heart:before { content: "\f159"; }
+.flaticon-heel:before { content: "\f15a"; }
+.flaticon-heel-elegant-feminine-shoe-shape-silhouette-from-side-view:before { content: "\f15b"; }
+.flaticon-holly-xmas-symbol-of-branch-with-leaves-and-fruits:before { content: "\f15c"; }
+.flaticon-home-interface-button-symbol:before { content: "\f15d"; }
+.flaticon-home-interface-symbol:before { content: "\f15e"; }
+.flaticon-hot-soup-bowl:before { content: "\f15f"; }
+.flaticon-house-building:before { content: "\f160"; }
+.flaticon-house-shape:before { content: "\f161"; }
+.flaticon-information-square:before { content: "\f162"; }
+.flaticon-internet-planetary-circulr-grid-symbol:before { content: "\f163"; }
+.flaticon-keyboard-with-cord:before { content: "\f164"; }
+.flaticon-laptop:before { content: "\f165"; }
+.flaticon-laptop-1:before { content: "\f166"; }
+.flaticon-leaf:before { content: "\f167"; }
+.flaticon-leaf-1:before { content: "\f168"; }
+.flaticon-leaf-natural-shape-silhouette:before { content: "\f169"; }
+.flaticon-leaf-or-flower-silhouette-shape:before { content: "\f16a"; }
+.flaticon-leaf-outlined-shape:before { content: "\f16b"; }
+.flaticon-leaf-plant-part-shape:before { content: "\f16c"; }
+.flaticon-leaves:before { content: "\f16d"; }
+.flaticon-leaves-on-a-branch-diagonal-shape:before { content: "\f16e"; }
+.flaticon-lightning-bolt-symbol-of-flash:before { content: "\f16f"; }
+.flaticon-like:before { content: "\f170"; }
+.flaticon-like-thumb-up-symbol-of-straight-lines-hand:before { content: "\f171"; }
+.flaticon-lock:before { content: "\f172"; }
+.flaticon-low-battery-level-interface-symbol:before { content: "\f173"; }
+.flaticon-mail-closed-envelope-back:before { content: "\f174"; }
+.flaticon-man-riding-on-a-bike:before { content: "\f175"; }
+.flaticon-man-throwing-a-can-to-trash-container:before { content: "\f176"; }
+.flaticon-margarita:before { content: "\f177"; }
+.flaticon-microphone-voice-audio-tool-with-cord:before { content: "\f178"; }
+.flaticon-money-dollar-sign-in-a-square:before { content: "\f179"; }
+.flaticon-moon-and-stars:before { content: "\f17a"; }
+.flaticon-moon-phase-symbol-for-weather-interface:before { content: "\f17b"; }
+.flaticon-mouse:before { content: "\f17c"; }
+.flaticon-mug:before { content: "\f17d"; }
+.flaticon-music-note-symbol:before { content: "\f17e"; }
+.flaticon-musical-note-symbol:before { content: "\f17f"; }
+.flaticon-no-smoking-circular-signal:before { content: "\f180"; }
+.flaticon-no-smoking-signal:before { content: "\f181"; }
+.flaticon-notebook-closed-cover-with-a-label-and-spring:before { content: "\f182"; }
+.flaticon-open-trash-can:before { content: "\f183"; }
+.flaticon-opened-letter-envelope-from-back-view:before { content: "\f184"; }
+.flaticon-opened-trash-can:before { content: "\f185"; }
+.flaticon-opened-trash-can-1:before { content: "\f186"; }
+.flaticon-opened-trash-can-from-side-view:before { content: "\f187"; }
+.flaticon-out-of-basket-commercial-symbol:before { content: "\f188"; }
+.flaticon-out-of-cart-commercial-symbol-for-e-commerce:before { content: "\f189"; }
+.flaticon-out-of-the-cart-symbol-for-e-commerce:before { content: "\f18a"; }
+.flaticon-outlined-heart-shape:before { content: "\f18b"; }
+.flaticon-paperclip:before { content: "\f18c"; }
+.flaticon-person-giving-a-giftbox:before { content: "\f18d"; }
+.flaticon-photo-camera:before { content: "\f18e"; }
+.flaticon-photo-camera-1:before { content: "\f18f"; }
+.flaticon-photo-camera-frontal-view:before { content: "\f190"; }
+.flaticon-photo-camera-of-rectangular-shape:before { content: "\f191"; }
+.flaticon-photo-framed-interface-symbol:before { content: "\f192"; }
+.flaticon-picture-with-mountains-landscape:before { content: "\f193"; }
+.flaticon-plant-branch-with-leaves:before { content: "\f194"; }
+.flaticon-plant-branch-with-leaves-1:before { content: "\f195"; }
+.flaticon-plant-leaf-shape:before { content: "\f196"; }
+.flaticon-podcast-symbol:before { content: "\f197"; }
+.flaticon-power-button:before { content: "\f198"; }
+.flaticon-printer:before { content: "\f199"; }
+.flaticon-purse:before { content: "\f19a"; }
+.flaticon-purse-of-dark-design:before { content: "\f19b"; }
+.flaticon-puzzle-piece-black-silhouette-shape:before { content: "\f19c"; }
+.flaticon-radiation-circular-symbol-with-three-rays:before { content: "\f19d"; }
+.flaticon-rain-cloud:before { content: "\f19e"; }
+.flaticon-rain-cloudy-weather-symbol:before { content: "\f19f"; }
+.flaticon-ray:before { content: "\f1a0"; }
+.flaticon-recycle-triangular-sign-of-three-rotating-arrows-in-a-square:before { content: "\f1a1"; }
+.flaticon-recycle-triangular-symbol-of-three-arrows-rotation:before { content: "\f1a2"; }
+.flaticon-refresh-arrows-symbol-of-interface:before { content: "\f1a3"; }
+.flaticon-reload-circular-arrow-symbol:before { content: "\f1a4"; }
+.flaticon-rest-star-interface-symbol:before { content: "\f1a5"; }
+.flaticon-ribbon-bow:before { content: "\f1a6"; }
+.flaticon-ribbon-bow-decoration:before { content: "\f1a7"; }
+.flaticon-ribbon-bow-shape:before { content: "\f1a8"; }
+.flaticon-rider-of-a-bicycle:before { content: "\f1a9"; }
+.flaticon-right-arrow-signal:before { content: "\f1aa"; }
+.flaticon-ring-with-a-diamond:before { content: "\f1ab"; }
+.flaticon-ring-with-precious-gem:before { content: "\f1ac"; }
+.flaticon-ring-with-precious-stone:before { content: "\f1ad"; }
+.flaticon-rss-square-symbol:before { content: "\f1ae"; }
+.flaticon-running-man-silhouette-to-left:before { content: "\f1af"; }
+.flaticon-sale-signal:before { content: "\f1b0"; }
+.flaticon-sale-tag-commercial-tool:before { content: "\f1b1"; }
+.flaticon-screen:before { content: "\f1b2"; }
+.flaticon-ship:before { content: "\f1b3"; }
+.flaticon-shopping-basket:before { content: "\f1b4"; }
+.flaticon-shopping-cart:before { content: "\f1b5"; }
+.flaticon-shopping-cart-1:before { content: "\f1b6"; }
+.flaticon-shopping-cart-2:before { content: "\f1b7"; }
+.flaticon-shopping-cart-commerce-tool:before { content: "\f1b8"; }
+.flaticon-short:before { content: "\f1b9"; }
+.flaticon-short-silhouette:before { content: "\f1ba"; }
+.flaticon-shorts:before { content: "\f1bb"; }
+.flaticon-snowflake-shape:before { content: "\f1bc"; }
+.flaticon-snowflake-shape-1:before { content: "\f1bd"; }
+.flaticon-snowflake-xmas-shape:before { content: "\f1be"; }
+.flaticon-soda-glass:before { content: "\f1bf"; }
+.flaticon-sound-speaker:before { content: "\f1c0"; }
+.flaticon-speaker-mute-sound-interface-symbol:before { content: "\f1c1"; }
+.flaticon-speech-bubbles-chat-symbol:before { content: "\f1c2"; }
+.flaticon-spirals-floral-ornament:before { content: "\f1c3"; }
+.flaticon-square-photo-camera-tool:before { content: "\f1c4"; }
+.flaticon-star-empty-shape:before { content: "\f1c5"; }
+.flaticon-stars-couple-of-two-sizes:before { content: "\f1c6"; }
+.flaticon-stereo-speakers-musical-tools:before { content: "\f1c7"; }
+.flaticon-storm-weather-symbol-of-a-dark-cloud-with-a-lightning-bolt:before { content: "\f1c8"; }
+.flaticon-sun:before { content: "\f1c9"; }
+.flaticon-sun-1:before { content: "\f1ca"; }
+.flaticon-sun-covered-by-cloud-weather-symbol:before { content: "\f1cb"; }
+.flaticon-taxi:before { content: "\f1cc"; }
+.flaticon-television:before { content: "\f1cd"; }
+.flaticon-theater:before { content: "\f1ce"; }
+.flaticon-train:before { content: "\f1cf"; }
+.flaticon-trash-can:before { content: "\f1d0"; }
+.flaticon-trash-can-with-cover:before { content: "\f1d1"; }
+.flaticon-trash-closed-can:before { content: "\f1d2"; }
+.flaticon-trebol-shape:before { content: "\f1d3"; }
+.flaticon-tree:before { content: "\f1d4"; }
+.flaticon-tree-of-rounded-foliage-shape:before { content: "\f1d5"; }
+.flaticon-tv:before { content: "\f1d6"; }
+.flaticon-two-black-stormy-clouds-symbol-of-weather:before { content: "\f1d7"; }
+.flaticon-two-cogwheels-settings-interface-symbol:before { content: "\f1d8"; }
+.flaticon-umbrella:before { content: "\f1d9"; }
+.flaticon-umbrella-covering-tool:before { content: "\f1da"; }
+.flaticon-umbrella-opened-silhouette:before { content: "\f1db"; }
+.flaticon-umbrella-protecting-tool:before { content: "\f1dc"; }
+.flaticon-umbrella-protection-tool:before { content: "\f1dd"; }
+.flaticon-unlike:before { content: "\f1de"; }
+.flaticon-unlock:before { content: "\f1df"; }
+.flaticon-up-and-down-opposite-arrows-symbol-side-by-side:before { content: "\f1e0"; }
+.flaticon-upload-file-symbol-for-interface:before { content: "\f1e1"; }
+.flaticon-upload-interface-symbol-of-up-arrow-and-a-tray:before { content: "\f1e2"; }
+.flaticon-upload-interface-symbol-of-up-arrow-from-a-tray:before { content: "\f1e3"; }
+.flaticon-user-male-shape:before { content: "\f1e4"; }
+.flaticon-user-shape:before { content: "\f1e5"; }
+.flaticon-verified-notes-symbol:before { content: "\f1e6"; }
+.flaticon-vertical-airplane-shape-symbol:before { content: "\f1e7"; }
+.flaticon-video-camera:before { content: "\f1e8"; }
+.flaticon-video-camera-side-view:before { content: "\f1e9"; }
+.flaticon-wireless-keyboard:before { content: "\f1ea"; }
+.flaticon-wireless-mouse:before { content: "\f1eb"; }
+.flaticon-woman-carrying-a-present-box:before { content: "\f1ec"; }
+.flaticon-worker-running-with-suitcase:before { content: "\f1ed"; }
+.flaticon-world-wide-web:before { content: "\f1ee"; }
+.flaticon-zoom-in-interface-symbol:before { content: "\f1ef"; }
+.flaticon-zoom-in-interface-symbol-of-magnifier-with-plus-sign:before { content: "\f1f0"; }
+.flaticon-zoom-interface-dark-symbol:before { content: "\f1f1"; }
+.flaticon-zoom-out:before { content: "\f1f2"; }
+.flaticon-zoom-out-interface-symbol:before { content: "\f1f3"; }
+    
+    $font-Flaticon-a-minus-test-symbol: "\f100";
+    $font-Flaticon-a-plus-symbol: "\f101";
+    $font-Flaticon-add-favorite-star-interface-symbol: "\f102";
+    $font-Flaticon-add-song-interface-symbol: "\f103";
+    $font-Flaticon-add-to-cart-commercial-symbol: "\f104";
+    $font-Flaticon-add-to-shopping-cart-e-commerce-symbol: "\f105";
+    $font-Flaticon-adding-to-shopping-cart: "\f106";
+    $font-Flaticon-apple-black-fruit-shape: "\f107";
+    $font-Flaticon-apple-black-shape: "\f108";
+    $font-Flaticon-arroba-symbol: "\f109";
+    $font-Flaticon-balloon-black-oval-shape: "\f10a";
+    $font-Flaticon-baseball-ball: "\f10b";
+    $font-Flaticon-baseball-circular-ball: "\f10c";
+    $font-Flaticon-basket: "\f10d";
+    $font-Flaticon-battery-black-silhouette-shape: "\f10e";
+    $font-Flaticon-battery-level-interface-symbol: "\f10f";
+    $font-Flaticon-battery-with-three-empty-areas: "\f110";
+    $font-Flaticon-birthday-cake-with-one-burning-candle-on-top: "\f111";
+    $font-Flaticon-black-flag: "\f112";
+    $font-Flaticon-black-male-t-shirt: "\f113";
+    $font-Flaticon-book-opened-pages: "\f114";
+    $font-Flaticon-bookmark-on-an-opened-book: "\f115";
+    $font-Flaticon-briefcase: "\f116";
+    $font-Flaticon-briefcase-1: "\f117";
+    $font-Flaticon-briefcase-business-tool: "\f118";
+    $font-Flaticon-bus-front: "\f119";
+    $font-Flaticon-butterfly-top-view: "\f11a";
+    $font-Flaticon-car-front: "\f11b";
+    $font-Flaticon-castle-with-a-flag-on-top: "\f11c";
+    $font-Flaticon-cellphone: "\f11d";
+    $font-Flaticon-cellphone-1: "\f11e";
+    $font-Flaticon-cellphone-2: "\f11f";
+    $font-Flaticon-cellphone-3: "\f120";
+    $font-Flaticon-chat-comment: "\f121";
+    $font-Flaticon-checkmark: "\f122";
+    $font-Flaticon-circular-wall-clock: "\f123";
+    $font-Flaticon-clock-circular-tool: "\f124";
+    $font-Flaticon-clock-of-wall: "\f125";
+    $font-Flaticon-clock-time-tool: "\f126";
+    $font-Flaticon-closed-trash-can-tool: "\f127";
+    $font-Flaticon-clouds: "\f128";
+    $font-Flaticon-coffee-hot-cup: "\f129";
+    $font-Flaticon-coffee-or-tea-mug: "\f12a";
+    $font-Flaticon-comment: "\f12b";
+    $font-Flaticon-comment-bubble-with-three-dots-inside: "\f12c";
+    $font-Flaticon-comment-speech-bubble-of-chat: "\f12d";
+    $font-Flaticon-comments-bubbles: "\f12e";
+    $font-Flaticon-commercial-basket-with-down-arrow-symbol: "\f12f";
+    $font-Flaticon-compass-circular-tool: "\f130";
+    $font-Flaticon-couch: "\f131";
+    $font-Flaticon-cpu: "\f132";
+    $font-Flaticon-credit-card-back: "\f133";
+    $font-Flaticon-credit-or-debit-card-back: "\f134";
+    $font-Flaticon-delete-shopping-cart-symbol: "\f135";
+    $font-Flaticon-delete-song-interface-symbol: "\f136";
+    $font-Flaticon-desk-microphone: "\f137";
+    $font-Flaticon-disc: "\f138";
+    $font-Flaticon-disc-1: "\f139";
+    $font-Flaticon-disk: "\f13a";
+    $font-Flaticon-download: "\f13b";
+    $font-Flaticon-download-interface-symbol-of-down-arrow-on-a-tray: "\f13c";
+    $font-Flaticon-drawing-tablet-design-tool: "\f13d";
+    $font-Flaticon-dress: "\f13e";
+    $font-Flaticon-dress-1: "\f13f";
+    $font-Flaticon-drink-cocktail-glass-side-view: "\f140";
+    $font-Flaticon-e-commerce-shopping-cart-tool: "\f141";
+    $font-Flaticon-earth-globe: "\f142";
+    $font-Flaticon-education-school-book: "\f143";
+    $font-Flaticon-eiffel-tower: "\f144";
+    $font-Flaticon-equalizer: "\f145";
+    $font-Flaticon-equalizer-bars-symbol: "\f146";
+    $font-Flaticon-fashion-black-dress: "\f147";
+    $font-Flaticon-feminine-purse: "\f148";
+    $font-Flaticon-film-strip: "\f149";
+    $font-Flaticon-flower: "\f14a";
+    $font-Flaticon-flower-beautiful-shape-of-five-petals: "\f14b";
+    $font-Flaticon-flower-shape-photo-camera-interface-symbol: "\f14c";
+    $font-Flaticon-fork-and-knife-eating-utensils: "\f14d";
+    $font-Flaticon-fork-and-spoon: "\f14e";
+    $font-Flaticon-full-battery-interface-symbol: "\f14f";
+    $font-Flaticon-gift-box-surrounded-by-a-ribbon: "\f150";
+    $font-Flaticon-gift-box-with-a-ribbon-on-top: "\f151";
+    $font-Flaticon-gift-box-with-big-ribbon-bow: "\f152";
+    $font-Flaticon-giftbox: "\f153";
+    $font-Flaticon-giftbox-1: "\f154";
+    $font-Flaticon-half-battery-level-interface-symbol: "\f155";
+    $font-Flaticon-headphones: "\f156";
+    $font-Flaticon-headphones-of-straight-shape: "\f157";
+    $font-Flaticon-headphones-tool: "\f158";
+    $font-Flaticon-heart: "\f159";
+    $font-Flaticon-heel: "\f15a";
+    $font-Flaticon-heel-elegant-feminine-shoe-shape-silhouette-from-side-view: "\f15b";
+    $font-Flaticon-holly-xmas-symbol-of-branch-with-leaves-and-fruits: "\f15c";
+    $font-Flaticon-home-interface-button-symbol: "\f15d";
+    $font-Flaticon-home-interface-symbol: "\f15e";
+    $font-Flaticon-hot-soup-bowl: "\f15f";
+    $font-Flaticon-house-building: "\f160";
+    $font-Flaticon-house-shape: "\f161";
+    $font-Flaticon-information-square: "\f162";
+    $font-Flaticon-internet-planetary-circulr-grid-symbol: "\f163";
+    $font-Flaticon-keyboard-with-cord: "\f164";
+    $font-Flaticon-laptop: "\f165";
+    $font-Flaticon-laptop-1: "\f166";
+    $font-Flaticon-leaf: "\f167";
+    $font-Flaticon-leaf-1: "\f168";
+    $font-Flaticon-leaf-natural-shape-silhouette: "\f169";
+    $font-Flaticon-leaf-or-flower-silhouette-shape: "\f16a";
+    $font-Flaticon-leaf-outlined-shape: "\f16b";
+    $font-Flaticon-leaf-plant-part-shape: "\f16c";
+    $font-Flaticon-leaves: "\f16d";
+    $font-Flaticon-leaves-on-a-branch-diagonal-shape: "\f16e";
+    $font-Flaticon-lightning-bolt-symbol-of-flash: "\f16f";
+    $font-Flaticon-like: "\f170";
+    $font-Flaticon-like-thumb-up-symbol-of-straight-lines-hand: "\f171";
+    $font-Flaticon-lock: "\f172";
+    $font-Flaticon-low-battery-level-interface-symbol: "\f173";
+    $font-Flaticon-mail-closed-envelope-back: "\f174";
+    $font-Flaticon-man-riding-on-a-bike: "\f175";
+    $font-Flaticon-man-throwing-a-can-to-trash-container: "\f176";
+    $font-Flaticon-margarita: "\f177";
+    $font-Flaticon-microphone-voice-audio-tool-with-cord: "\f178";
+    $font-Flaticon-money-dollar-sign-in-a-square: "\f179";
+    $font-Flaticon-moon-and-stars: "\f17a";
+    $font-Flaticon-moon-phase-symbol-for-weather-interface: "\f17b";
+    $font-Flaticon-mouse: "\f17c";
+    $font-Flaticon-mug: "\f17d";
+    $font-Flaticon-music-note-symbol: "\f17e";
+    $font-Flaticon-musical-note-symbol: "\f17f";
+    $font-Flaticon-no-smoking-circular-signal: "\f180";
+    $font-Flaticon-no-smoking-signal: "\f181";
+    $font-Flaticon-notebook-closed-cover-with-a-label-and-spring: "\f182";
+    $font-Flaticon-open-trash-can: "\f183";
+    $font-Flaticon-opened-letter-envelope-from-back-view: "\f184";
+    $font-Flaticon-opened-trash-can: "\f185";
+    $font-Flaticon-opened-trash-can-1: "\f186";
+    $font-Flaticon-opened-trash-can-from-side-view: "\f187";
+    $font-Flaticon-out-of-basket-commercial-symbol: "\f188";
+    $font-Flaticon-out-of-cart-commercial-symbol-for-e-commerce: "\f189";
+    $font-Flaticon-out-of-the-cart-symbol-for-e-commerce: "\f18a";
+    $font-Flaticon-outlined-heart-shape: "\f18b";
+    $font-Flaticon-paperclip: "\f18c";
+    $font-Flaticon-person-giving-a-giftbox: "\f18d";
+    $font-Flaticon-photo-camera: "\f18e";
+    $font-Flaticon-photo-camera-1: "\f18f";
+    $font-Flaticon-photo-camera-frontal-view: "\f190";
+    $font-Flaticon-photo-camera-of-rectangular-shape: "\f191";
+    $font-Flaticon-photo-framed-interface-symbol: "\f192";
+    $font-Flaticon-picture-with-mountains-landscape: "\f193";
+    $font-Flaticon-plant-branch-with-leaves: "\f194";
+    $font-Flaticon-plant-branch-with-leaves-1: "\f195";
+    $font-Flaticon-plant-leaf-shape: "\f196";
+    $font-Flaticon-podcast-symbol: "\f197";
+    $font-Flaticon-power-button: "\f198";
+    $font-Flaticon-printer: "\f199";
+    $font-Flaticon-purse: "\f19a";
+    $font-Flaticon-purse-of-dark-design: "\f19b";
+    $font-Flaticon-puzzle-piece-black-silhouette-shape: "\f19c";
+    $font-Flaticon-radiation-circular-symbol-with-three-rays: "\f19d";
+    $font-Flaticon-rain-cloud: "\f19e";
+    $font-Flaticon-rain-cloudy-weather-symbol: "\f19f";
+    $font-Flaticon-ray: "\f1a0";
+    $font-Flaticon-recycle-triangular-sign-of-three-rotating-arrows-in-a-square: "\f1a1";
+    $font-Flaticon-recycle-triangular-symbol-of-three-arrows-rotation: "\f1a2";
+    $font-Flaticon-refresh-arrows-symbol-of-interface: "\f1a3";
+    $font-Flaticon-reload-circular-arrow-symbol: "\f1a4";
+    $font-Flaticon-rest-star-interface-symbol: "\f1a5";
+    $font-Flaticon-ribbon-bow: "\f1a6";
+    $font-Flaticon-ribbon-bow-decoration: "\f1a7";
+    $font-Flaticon-ribbon-bow-shape: "\f1a8";
+    $font-Flaticon-rider-of-a-bicycle: "\f1a9";
+    $font-Flaticon-right-arrow-signal: "\f1aa";
+    $font-Flaticon-ring-with-a-diamond: "\f1ab";
+    $font-Flaticon-ring-with-precious-gem: "\f1ac";
+    $font-Flaticon-ring-with-precious-stone: "\f1ad";
+    $font-Flaticon-rss-square-symbol: "\f1ae";
+    $font-Flaticon-running-man-silhouette-to-left: "\f1af";
+    $font-Flaticon-sale-signal: "\f1b0";
+    $font-Flaticon-sale-tag-commercial-tool: "\f1b1";
+    $font-Flaticon-screen: "\f1b2";
+    $font-Flaticon-ship: "\f1b3";
+    $font-Flaticon-shopping-basket: "\f1b4";
+    $font-Flaticon-shopping-cart: "\f1b5";
+    $font-Flaticon-shopping-cart-1: "\f1b6";
+    $font-Flaticon-shopping-cart-2: "\f1b7";
+    $font-Flaticon-shopping-cart-commerce-tool: "\f1b8";
+    $font-Flaticon-short: "\f1b9";
+    $font-Flaticon-short-silhouette: "\f1ba";
+    $font-Flaticon-shorts: "\f1bb";
+    $font-Flaticon-snowflake-shape: "\f1bc";
+    $font-Flaticon-snowflake-shape-1: "\f1bd";
+    $font-Flaticon-snowflake-xmas-shape: "\f1be";
+    $font-Flaticon-soda-glass: "\f1bf";
+    $font-Flaticon-sound-speaker: "\f1c0";
+    $font-Flaticon-speaker-mute-sound-interface-symbol: "\f1c1";
+    $font-Flaticon-speech-bubbles-chat-symbol: "\f1c2";
+    $font-Flaticon-spirals-floral-ornament: "\f1c3";
+    $font-Flaticon-square-photo-camera-tool: "\f1c4";
+    $font-Flaticon-star-empty-shape: "\f1c5";
+    $font-Flaticon-stars-couple-of-two-sizes: "\f1c6";
+    $font-Flaticon-stereo-speakers-musical-tools: "\f1c7";
+    $font-Flaticon-storm-weather-symbol-of-a-dark-cloud-with-a-lightning-bolt: "\f1c8";
+    $font-Flaticon-sun: "\f1c9";
+    $font-Flaticon-sun-1: "\f1ca";
+    $font-Flaticon-sun-covered-by-cloud-weather-symbol: "\f1cb";
+    $font-Flaticon-taxi: "\f1cc";
+    $font-Flaticon-television: "\f1cd";
+    $font-Flaticon-theater: "\f1ce";
+    $font-Flaticon-train: "\f1cf";
+    $font-Flaticon-trash-can: "\f1d0";
+    $font-Flaticon-trash-can-with-cover: "\f1d1";
+    $font-Flaticon-trash-closed-can: "\f1d2";
+    $font-Flaticon-trebol-shape: "\f1d3";
+    $font-Flaticon-tree: "\f1d4";
+    $font-Flaticon-tree-of-rounded-foliage-shape: "\f1d5";
+    $font-Flaticon-tv: "\f1d6";
+    $font-Flaticon-two-black-stormy-clouds-symbol-of-weather: "\f1d7";
+    $font-Flaticon-two-cogwheels-settings-interface-symbol: "\f1d8";
+    $font-Flaticon-umbrella: "\f1d9";
+    $font-Flaticon-umbrella-covering-tool: "\f1da";
+    $font-Flaticon-umbrella-opened-silhouette: "\f1db";
+    $font-Flaticon-umbrella-protecting-tool: "\f1dc";
+    $font-Flaticon-umbrella-protection-tool: "\f1dd";
+    $font-Flaticon-unlike: "\f1de";
+    $font-Flaticon-unlock: "\f1df";
+    $font-Flaticon-up-and-down-opposite-arrows-symbol-side-by-side: "\f1e0";
+    $font-Flaticon-upload-file-symbol-for-interface: "\f1e1";
+    $font-Flaticon-upload-interface-symbol-of-up-arrow-and-a-tray: "\f1e2";
+    $font-Flaticon-upload-interface-symbol-of-up-arrow-from-a-tray: "\f1e3";
+    $font-Flaticon-user-male-shape: "\f1e4";
+    $font-Flaticon-user-shape: "\f1e5";
+    $font-Flaticon-verified-notes-symbol: "\f1e6";
+    $font-Flaticon-vertical-airplane-shape-symbol: "\f1e7";
+    $font-Flaticon-video-camera: "\f1e8";
+    $font-Flaticon-video-camera-side-view: "\f1e9";
+    $font-Flaticon-wireless-keyboard: "\f1ea";
+    $font-Flaticon-wireless-mouse: "\f1eb";
+    $font-Flaticon-woman-carrying-a-present-box: "\f1ec";
+    $font-Flaticon-worker-running-with-suitcase: "\f1ed";
+    $font-Flaticon-world-wide-web: "\f1ee";
+    $font-Flaticon-zoom-in-interface-symbol: "\f1ef";
+    $font-Flaticon-zoom-in-interface-symbol-of-magnifier-with-plus-sign: "\f1f0";
+    $font-Flaticon-zoom-interface-dark-symbol: "\f1f1";
+    $font-Flaticon-zoom-out: "\f1f2";
+    $font-Flaticon-zoom-out-interface-symbol: "\f1f3";
