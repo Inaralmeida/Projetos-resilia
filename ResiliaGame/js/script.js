@@ -120,7 +120,7 @@ function acordar(){
     height: 40px;
     margin-top: 20px;`
     
-}
+} 
 
 function mostraPonto1(){
     var escolha = document.getElementsByName('escolha')
